@@ -1,0 +1,22 @@
+{
+  "studentName": "John Doe",
+  "age": 10,
+  "grade": "5",
+  "evaluatorName": "Mr. Smith",
+  "evaluationDate": "2025-10-28",
+  "delayedSpeech": 2,
+  "letterConfusion": 1,
+  "difficultyLearningLetters": 1,
+  "troubleWithRhymes": 2,
+  "difficultySegmentingWords": 1,
+  "slowReadingProgress": 2,
+  "avoidsReadingAloud": 1,
+  "guessesWords": 0,
+  "spellingErrors": 1,
+  "slowFluency": 1,
+  "writingDifficulty": 0,
+  "strugglesWithSecondLanguage": 1,
+  "mixesLetterOrder": 0,
+  "avoidsReadingWritingTasks": 1,
+  "familyHistory": 2
+}

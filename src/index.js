@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter } from "react-router-dom";
+import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const theme = createTheme({
+  palette: {
+    mode: "light",
+    primary: { main: "#5A57F4" },   // tweak to match NeuroCheck branding
+    secondary: { main: "#6C63FF" },
+  },
+  typography: {
+    fontFamily: ["Inter", "Roboto", "Helvetica", "Arial", "sans-serif"].join(","),
+  },
+});
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>
 );
 
