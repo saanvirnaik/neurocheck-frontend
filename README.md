@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🧩 NeuroCheck
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**NeuroCheck** is a fun, educational web app that helps identify early signs of **Autism, ADHD, and Dyslexia** using a combination of **scientific questionnaires** and **interactive, game-based assessments**.  
+It is designed to promote awareness, inclusion, and early support for children with neurodiverse needs.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌈 Features
 
-### `npm start`
+- 🧠 **Checklist-based Screeners** — Autism, ADHD, and Dyslexia
+- 🎮 **Gamified Mini-Tests** — Fun interactive activities that assess focus, attention, and memory
+- 📊 **Instant Results Report** — Printable and easy-to-understand summaries
+- 🌍 **Resource Library** — Links to national and local neurodiversity support organizations
+- 🔐 **Privacy First** — No user data transmitted
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💡 Inspiration
 
-### `npm test`
+This project was inspired by **Saanvi Naik’s** volunteering work at *Stable Influence*, a therapeutic horse-riding center where children with autism and other developmental conditions come for equine therapy.  
+Seeing the positive change early intervention brought to these children motivated her to create a digital tool that helps families begin the journey toward awareness and support.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer | Technology | Description |
+|-------|-------------|-------------|
+| **Frontend** | React + Framer Motion | Responsive, animated user interface |
+| **Backend** | Spring Boot (Java) | REST APIs and screening logic |
+| **Database** | MySQL | Stores screening data and configurations |
+| **Deployment** | Vercel + Render | Fast, free hosting for CAC submission |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Deployment Links
 
-### `npm run eject`
+| Component | URL |
+|------------|-----|
+| **Live App** | [https://neurocheck.org](https://neurocheck.org) |
+| **Backend API** | [https://api.neurocheck.org](https://api.neurocheck.org) |
+| **GitHub Repo** | [https://github.com/saanvirnaik/neurocheck](https://github.com/saanvirnaik/neurocheck) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Installation (Local Development)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
